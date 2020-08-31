@@ -1,0 +1,26 @@
+{
+  "name": "truncjs",
+  "version": "1.0.0",
+  "description": "A Javascript plugin for truncating strings. Useful for making post excerpts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vahlcode/truncjs.git"
+  },
+  "keywords": [
+    "Blog",
+    "post",
+    "Truncate",
+    "Strings",
+    "JavaScript"
+  ],
+  "author": "Valentine Elum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vahlcode/truncjs/issues"
+  },
+  "homepage": "https://github.com/vahlcode/truncjs#readme"
+}
