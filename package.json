@@ -1,10 +1,18 @@
 {
   "name": "truncjs",
-  "version": "1.0.0",
-  "description": "A Javascript plugin for truncating strings. Useful for making post excerpts.",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "A Javascript library for truncating strings. Useful for making post excerpts.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    "import": "./src/index.js",
+    "require": "./public/index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "git push --tags",
+    "build": "babel src -d public -w",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +30,19 @@
   "bugs": {
     "url": "https://github.com/vahlcode/truncjs/issues"
   },
-  "homepage": "https://github.com/vahlcode/truncjs#readme"
+  "homepage": "https://truncjs.vercel.app",
+  "publishConfig": {
+    "access": "public",
+    "branches": [
+      "master"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5"
+  },
+  "dependencies": {
+    "babel-plugin-add-module-exports": "^1.0.2"
+  }
 }
