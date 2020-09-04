@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Trunc Js
 
 A Javascript library for truncating strings. Useful for making post excerpts.
@@ -53,3 +54,7 @@ console.log(truncjs(string, 0, 10)) // => "Hello Ada..."
 ## License
 
 MIT LICENSE
+=======
+# truncjs
+A JavaScript plugin for truncating strings. Useful for making post excerpts.
+>>>>>>> 5c0f56499579eb2fb1a0651e33ee942a3c29e696
