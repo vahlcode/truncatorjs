@@ -3,7 +3,7 @@
 //Twitter : @VahlCode
 //License : MIT License 
 
-module.exports = function truncate(string, startPos = 0, maxLength = 50) {
+const truncjs = (string, startPos = 0, maxLength = 50) => {
     if (typeof string !== "string" && typeof string === "number") {
         string = string.toString()
     }
@@ -12,3 +12,5 @@ module.exports = function truncate(string, startPos = 0, maxLength = 50) {
       }
     return string.slice(startPos, maxLength) + '...'
 }
+
+export default truncjs;

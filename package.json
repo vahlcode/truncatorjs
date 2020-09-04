@@ -11,8 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "git push --tags",
-    "build": "babel src -d public -w",
-    "prepublish": "npm run build"
+    "build": "babel src -d public -w"
   },
   "repository": {
     "type": "git",
