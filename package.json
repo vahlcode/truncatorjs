@@ -1,6 +1,6 @@
 {
   "name": "truncjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Javascript library for truncating strings. Useful for making post excerpts.",
   "type": "module",
   "main": "./src/index.js",
